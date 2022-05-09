@@ -29,7 +29,7 @@ const App = () => (
       <Route path="/episodes" element={<EpisodesPage />} />
       <Route path="/episodes/:id" element={<EpisodePage />} />
       <Route path="404" element={<Page404 />} />
-      {/* <Route path="*" element={<Navigate to="404" />} /> */}
+      <Route path="*" element={<Navigate to="404" />} />
     </Routes>
   </Router>
 );
