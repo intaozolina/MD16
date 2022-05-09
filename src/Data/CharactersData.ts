@@ -1,4 +1,4 @@
-type Character = {
+export type Character = {
   id: number;
   name: string;
   status: string;
@@ -13,7 +13,7 @@ type Character = {
   created: string;
 };
 
-type Origin = {
+export type Origin = {
   name: string;
   url: string;
 }

@@ -1,0 +1,51 @@
+.characters__section {
+  padding: 20px;
+  background-image: url("../../../public/rick-morty-season-6-multiverse-future-story-bigger-e1649760424116.webp");
+  background-size: contain;
+  background-blend-mode: overlay;
+}
+
+.characters {
+  font-size: 50px;
+  font-weight: bold;
+  color: indigo;
+  text-shadow: 7px 2px 3px rgba(210,96,211,0.71);
+  text-align: center;
+  padding: 30px;
+}
+
+.characters__card {
+  border: 1px solid slategray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 30px;
+  margin: 10px;
+  box-shadow: 8px 6px 15px 7px rgba(122, 109, 135, 0.34);
+  background: radial-gradient(circle, rgba(186,172,212,1) 0%, rgba(160,201,203,1) 100%);
+  border-radius: 20px;
+}
+
+.characters__name {
+  font-size: 20px;
+  font-weight: bold;
+  color: darkslateblue;
+  align-self: center;
+}
+
+.characters__btn-more {
+  border: 2px solid lightsteelblue;
+  color: darkblue;
+  background: radial-gradient(circle, rgba(64,135,186,1) 0%, rgba(160,201,203,1) 100%);
+  cursor: pointer;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 7px 15px;
+  align-self: center;
+  &:hover {
+    color: darkblue;
+    border: 2px solid #4087ba;
+    background: radial-gradient(circle, rgba(184,227,234,1) 0%, rgba(64,135,186,1) 100%);
+  }
+}
